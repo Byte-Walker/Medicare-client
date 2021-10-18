@@ -1,0 +1,49 @@
+.header {
+    box-shadow: 0 10px 10px 5px rgba(17, 31, 80, 0.07);
+}
+
+.logo {
+    height: 3em;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-container a {
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-right: 1.5em;
+}
+
+.btn {
+    padding: 10px 18px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-block;
+}
+
+.btn-primary {
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-primary);
+    color: var(--color-secondary) !important;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    border: none;
+    background-color: white;
+    color: var(--color-primary);
+}
+
+
+

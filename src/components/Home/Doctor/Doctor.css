@@ -1,0 +1,91 @@
+.doctor-card {
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(17, 31, 81, 0.1);
+    transition: all 0.3s;
+}
+
+.doctor-card::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    margin: 0 auto;
+    background-color: var(--color-primary);
+    transition: all 0.5s;
+}
+
+.doctor-card:hover::after {
+    width: 100%;
+}
+
+.doctor-card:hover {
+    box-shadow: 0px 0px 30px rgb(216, 218, 221);
+}
+
+.doctor-img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 20px rgb(199, 198, 198);
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.doctor-card-info {
+    text-align: center;
+}
+
+.doctor-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-primary)
+}
+
+.doctor-speciality {
+    font-size: 1.1rem;
+    color: #39b1b9;
+    font-weight: 600;
+}
+
+.doctor-description {
+    margin: 15px;
+}
+
+.doctor-description::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: var(--color-primary);
+    opacity: 0.2;
+    margin: 20px 0;
+}
+
+.doctor-card-social-icons {
+    text-align: center;
+}
+
+.doctor-card-social-icons i {
+    padding: 8px;
+    border: 1px solid rgba(17, 31, 81, 0.2);
+    border-radius: 50%;
+    color: var(--color-primary);
+    margin-bottom: 30px;
+    transition: all 0.3s;
+
+}
+
+.doctor-card-social-icons i:hover {
+    color: var(--color-secondary);
+    box-shadow: 0 0 2px 1px var(--color-secondary);
+}
+
+
+.doctor-card-social-icons .fa-facebook-f {
+    padding: 8px 11px;
+}
+
+

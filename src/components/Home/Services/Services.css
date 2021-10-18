@@ -1,0 +1,33 @@
+.services-container {
+    padding: 3em;
+}
+
+.section-category {
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.section-category::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: var(--color-secondary);
+    margin: 10px auto; 
+}
+
+.section-title {
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 80px;
+}

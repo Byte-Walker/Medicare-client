@@ -1,0 +1,27 @@
+.banner {
+    background-color: rgba(17, 31, 80, 0.05);
+    padding-top: 20px;
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.banner-left {
+    width: 80%;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 55px;
+    margin-bottom: 2rem;
+}
+
+.banner-description {
+    margin-bottom: 1.5rem;
+    color: rgba(17, 31, 80, 0.9);
+}

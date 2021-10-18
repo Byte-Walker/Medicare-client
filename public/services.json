@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Orthopedics",
+        "img": "https://2.bp.blogspot.com/-xiarwiEHZNk/WnfuA-xqu0I/AAAAAAAAAA8/L0jfs6zFoccL7VS6HnPOLVKDpm-jjBR8wCLcBGAs/s1600/Orthopedics.jpg",
+        "description": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system.",
+        "detailedDescription": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and congenital disorders. Nicholas Andry coined the word in French as orthopédie, derived from the Ancient Greek words ὀρθός orthos (\"correct\", \"straight\") and παιδίον paidion (\"child\"), and published Orthopedie (translated as Orthopædia: Or the Art of Correcting and Preventing Deformities in Children[1]) in 1741. The word was assimilated into English as orthopædics; the ligature æ was common in that era for ae in Greek- and Latin-based words. As the name implies, the discipline was initially developed with attention to children, but the correction of spinal and bone deformities in all stages of life eventually became the cornerstone of orthopedic practice."
+    },
+    {
+        "id": 2,
+        "name": "Osteology",
+        "img": "https://static.gnoss.ws/didactalia/personalizacion/theme/resources/Imagenes_InfoVisual/014-skull-anterior-view.jpg",
+        "description": "Osteology, derived from the from Greek ὀστέον 'bones', and λόγος 'study', is the scientific study of bones, practised by osteologists.",
+        "detailedDescription": "Osteology, derived from the from Greek ὀστέον (ostéon) 'bones', and λόγος (logos) 'study', is the scientific study of bones, practised by osteologists. A subdiscipline of anatomy, anthropology, and paleontology, osteology is the detailed study of the structure of bones, skeletal elements, teeth, microbone morphology, function, disease, pathology, the process of ossification (from cartilaginous molds), and the resistance and hardness of bones (biophysics). Osteologists frequently work in the public and private sector as consultants for museums, scientists for research laboratories, scientists for medical investigations and/or for companies producing osteological reproductions in an academic context. Osteology and osteologists should not be confused with the alternative and pseudoscientific practice of medicine known as osteopathy and its practitioners, osteopaths."
+    },
+    {
+        "id": 3,
+        "name": "Psychology",
+        "img": "https://www.thenexthint.com/wp-content/uploads/2021/02/Bust-Myths-About-Psychiatryf.jpg",
+        "description": "Psychology is the science of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, as well as feelings and thought.",
+        "detailedDescription": "Psychology is the science of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, as well as feelings and thought. It is an academic discipline of immense scope, crossing the boundaries between the natural and social sciences. Psychologists seek an understanding of the emergent properties of brains, linking the discipline to neuroscience. As a social science, psychologists aim to understand the behavior of individuals and groups.[1][2] Ψ (or psi) is a Greek letter which is commonly associated with the science of psychology. A professional practitioner or researcher involved in the discipline is called a psychologist. Some psychologists can also be classified as social, behavioral, or cognitive scientists. Some psychologists attempt to understand the role of mental functions in individual and social behavior. Others explore the physiological and biological processes that underlie cognitive functions and behaviors."
+    },
+    {
+        "id": 4,
+        "name": "Pediatrics",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/pediatrician_or_family_practitioner_ref_guide/650x350_pediatrician_or_family_practitioner_ref_guide.jpg",
+        "description": "Paediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents.",
+        "detailedDescription": "Paediatrics (also spelled pediatrics or pædiatrics) is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends people seek pediatric care through the age of 21.[1][2] In the United Kingdom, paediatrics covers patients until age 18.[3] Worldwide age limits of pediatrics have been trending up year over year.[4] A medical doctor who specializes in this area is known as a pediatrician, or paediatrician. The word pediatrics and its cognates mean \"healer of children\"; they derive from two Greek words: παῖς (pais \"child\") and ἰατρός (iatros \"doctor, healer\"). Pediatricians work in hospitals and children's hospitals particularly those working in its subspecialties (e.g. neonatology), and as outpatient primary care physicians."
+    },
+    {
+        "id": 5,
+        "name": "Cardiology",
+        "img": "https://www.rumcsi.org/wp-content/uploads/2020/09/Cardiology-scaled.jpg",
+        "description": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system.",
+        "detailedDescription": "Cardiology (from Greek καρδίᾱ kardiā, \"heart\" and -λογία -logia, \"study\") is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology. Physicians who specialize in this field of medicine are called cardiologists, a specialty of internal medicine. Pediatric cardiologists are pediatricians who specialize in cardiology. Physicians who specialize in cardiac surgery are called cardiothoracic surgeons or cardiac surgeons, a specialty of general surgery."
+    },
+    {
+        "id": 6,
+        "name": "Gynaecology",
+        "img": "https://media.istockphoto.com/photos/worker-of-medicine-shows-the-uterus-picture-id1161780540?k=20&m=1161780540&s=612x612&w=0&h=YMUlHUqJgKigYGCAU0XFUsX8WWGPpzH3SrRhEkjodpg=",
+        "description": "Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians (see obstetrics and gynaecology). In many areas, the specialities of gynaecology and obstetrics overlap.",
+        "detailedDescription": "Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians (see obstetrics and gynaecology). In many areas, the specialities of gynaecology and obstetrics overlap. The Kahun Gynaecological Papyrus, dated to about 1800 BC, deals with women's health —gynaecological diseases, fertility, pregnancy, contraception, etc. The text is divided into thirty-four sections, each section dealing with a specific problem and containing diagnosis and treatment; no prognosis is suggested. Treatments are non surgical, comprising applying medicines to the affected body part or swallowing them. The womb is at times seen as the source of complaints manifesting themselves in other body parts.[2] Texts of Ayurveda, an Indian traditional medical system, also provides details about concepts and techniques related to gynaecology.[3][4] The Hippocratic Corpus contains several gynaecological treatises dating to the 5th/4th centuries BC. Aristotle is another strong source for medical texts from the 4th century BC with his descriptions of biology primarily found in History of Animals, Parts of Animals, Generation of Animals. [5] The gynaecological treatise Gynaikeia by Soranus of Ephesus (1st/2nd century AD) is extant (together with a 6th-century Latin paraphrase by Muscio, a physician of the same school). He was the chief representative of the school of physicians known as the \"Methodists\"."
+    }
+]

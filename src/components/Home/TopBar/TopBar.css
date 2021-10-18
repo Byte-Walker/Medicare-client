@@ -1,0 +1,35 @@
+.topbar {
+    background-color: var(--color-primary);
+    color: rgba(248, 248, 248, 0.897);
+    padding: 1em;
+    font-weight: 700;
+}
+
+.topbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar-container a:hover {
+    text-decoration: underline;
+}
+
+.topbar-contact {
+    display: flex;
+}
+
+.topbar-container p {
+    margin-right: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.topbar-container i {
+    color: var(--color-secondary);
+    font-size: 1.1em;
+}
