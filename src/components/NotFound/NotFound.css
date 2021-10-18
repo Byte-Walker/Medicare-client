@@ -1,0 +1,18 @@
+.not-found img {
+    height: 60vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.not-found a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.not-found a:hover {
+    text-decoration: underline;
+}

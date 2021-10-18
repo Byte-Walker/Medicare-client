@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 import ServicePage from './components/ServicePage/ServicePage';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
     return (
@@ -25,6 +26,10 @@ function App() {
                 <Route exact path="/service/:serviceName">
                     <ServicePage />
                 </Route>
+                <Route path="*">
+                    <NotFound />
+                </Route>
+
             </Switch>
         </Router>
     );
