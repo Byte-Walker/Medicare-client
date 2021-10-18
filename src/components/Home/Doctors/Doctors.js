@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import useDoctors from '../../../hooks/useDoctors';
 import Doctor from '../Doctor/Doctor';
 import './Doctors.css';
 
 const Doctors = () => {
-    const [doctors, setDoctors] = useState([]);
-    useEffect(() => {
-        fetch('./doctors.json')
-            .then((response) => response.json())
-            .then((data) => setDoctors(data));
-    }, []);
+    const [doctors] = useDoctors();
 
     return (
         <div className="doctors">

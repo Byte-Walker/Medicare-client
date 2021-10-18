@@ -5,6 +5,7 @@ import Header from './components/Home/Header/Header';
 import Home from './components/Home/Home';
 import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
+import ServicePage from './components/ServicePage/ServicePage';
 
 function App() {
     return (
@@ -20,6 +21,9 @@ function App() {
                 </Route>
                 <Route exact path="/login">
                     <Login />
+                </Route>
+                <Route exact path="/service/:serviceName">
+                    <ServicePage />
                 </Route>
             </Switch>
         </Router>

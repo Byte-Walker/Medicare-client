@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Dr. Shahidul",
-        "speciality": "Psychologist",
+        "speciality": "Psychology",
         "img": "https://i.ibb.co/FDMhJYk/doc1.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
@@ -16,42 +16,42 @@
     {
         "id": 3,
         "name": "Dr. Johnny",
-        "speciality": "Cardiologist",
+        "speciality": "Cardiology",
         "img": "https://i.ibb.co/wStRQ7M/doc3.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
     {
         "id": 4,
         "name": "Dr. Hussain",
-        "speciality": "Psychologist",
+        "speciality": "Psychology",
         "img": "https://i.ibb.co/q5P6H3R/doc4.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
     {
         "id": 5,
         "name": "Dr. Merry",
-        "speciality": "Gynaecologist",
+        "speciality": "Gynaecology",
         "img": "https://i.ibb.co/Z1VPM4Q/doc5.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
     {
         "id": 6,
         "name": "Dr. Jane",
-        "speciality": "Gynaecologist",
+        "speciality": "Gynaecology",
         "img": "https://i.ibb.co/RDYxRLB/doc11.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
     {
         "id": 7,
         "name": "Dr. Emily",
-        "speciality": "Cardiologist",
+        "speciality": "Cardiology",
         "img": "https://i.ibb.co/HH55XRM/Portrait-of-beautiful-mature-woman-doctor-holding-digital-tablet-and-looking-at-camera-Confident-fem.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
     {
         "id": 8,
         "name": "Dr. Steve",
-        "speciality": "Osteologist",
+        "speciality": "Osteology",
         "img": "https://i.ibb.co/Y73Mm2D/Shot-of-a-confident-young-doctor-working-in-a-hospital.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
@@ -65,7 +65,7 @@
     {
         "id": 10,
         "name": "Dr. Malan",
-        "speciality": "Osteologist",
+        "speciality": "Osteology",
         "img": "https://i.ibb.co/yXp2SWW/doc12.jpg",
         "description": "Completed MBBS from Harvard Medical School and took FCPS training from Germany. He has been nominated as the most meritorious doctor of the year."
     },
