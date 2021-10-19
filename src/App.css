@@ -3,25 +3,24 @@
 :root {
     --color-primary: #111f51;
     --color-secondary: #19ceda;
-    
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .max-width {
-  max-width: 1440px;
-  margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 i {
-  margin-right: .5em;
+    margin-right: 0.5em;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
-

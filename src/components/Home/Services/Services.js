@@ -6,7 +6,7 @@ const Services = () => {
     const [services] = useServices();
 
     return (
-        <div>
+        <div id="services">
             <div className="services-container max-width">
                 <p className="section-category">Services</p>
                 <h2 className="section-title">World Class Services</h2>
