@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import logo from '../../../images/logo-medicare.svg';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import useFirebase from '../../../hooks/useFirebase';
+import Hamburger from '../Hamburger/Hamburger';
 
 const Header = () => {
+    const [hamburgerDisplay, setHamburgerDisplay] = useState('none');
     const user = useAuth();
-    const {signOutUser} = useFirebase();
+    const { signOutUser } = useFirebase();
 
     const logOutHandler = () => {
         signOutUser();
+    };
+
+    const openHamburgerMenu = () => {
+        setHamburgerDisplay('block');
     }
 
     return (
@@ -20,17 +26,20 @@ const Header = () => {
                     <img className="logo" src={logo} alt="medicare logo" />
                 </NavLink>
 
-                <div>
+                <div className="header-menu">
                     <a href="/#services">Services</a>
                     <NavLink to="/doctors">Find a consultant</NavLink>
                     <NavLink to="/appointment">Appointment</NavLink>
                 </div>
 
-                <div>
+                <div className="header-auth">
                     {user.email ? (
                         <div className="logged-in-user">
                             <p className="username">{user.displayName}</p>
-                            <button onClick={logOutHandler} className="btn btn-danger">
+                            <button
+                                onClick={logOutHandler}
+                                className="btn btn-danger"
+                            >
                                 Log Out
                             </button>
                         </div>
@@ -45,6 +54,11 @@ const Header = () => {
                         </div>
                     )}
                 </div>
+                <div onClick={openHamburgerMenu} className="hamburger-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <Hamburger display={hamburgerDisplay} setHamburgerDisplay={setHamburgerDisplay} />
             </div>
         </div>
     );

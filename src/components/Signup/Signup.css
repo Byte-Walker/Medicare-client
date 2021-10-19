@@ -108,3 +108,21 @@ form button:hover {
     background-color: var(--color-primary);
     color: var(--color-secondary);
 }
+
+@media screen and (max-width: 590px){
+    .signup-form {
+        margin: 60px 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .page-bar {
+        font-size: 1.3rem;
+    } 
+}
+
+@media screen and (max-width: 370px){
+    .page-bar {
+        font-size: 1rem;
+    }   
+}

@@ -5,7 +5,7 @@
 .category-list {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 
@@ -16,6 +16,7 @@
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s;
+    margin-top: 10px;
 }
 
 .category-btn:not(:last-child) {

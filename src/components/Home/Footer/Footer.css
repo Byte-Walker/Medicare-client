@@ -21,7 +21,7 @@
 .footer-icons {
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 30px; 
 }
 
 .footer-icons a {
@@ -49,4 +49,10 @@
     background-color: var(--color-secondary);
     color: var(--color-primary);
     box-shadow: 0 0 20px var(--color-secondary);
+}
+
+@media screen and (max-width: 360px){
+    .footer-logo {
+        width: 100%;
+    }
 }

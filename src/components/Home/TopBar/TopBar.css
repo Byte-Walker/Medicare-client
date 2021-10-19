@@ -33,3 +33,32 @@
     color: var(--color-secondary);
     font-size: 1.1em;
 }
+
+@media screen and (max-width: 700px){
+    .topbar-container > p {
+        display: none;
+    }
+    .topbar-container {
+        display: block;
+    }
+
+    .topbar-contact {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .topbar-contact {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .topbar-contact p {
+        margin-bottom: 5px;
+    }
+
+    .topbar-contact p a {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}

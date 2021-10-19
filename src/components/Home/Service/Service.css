@@ -30,3 +30,9 @@
     margin-bottom: 16px;
     color: rgba(17, 31, 81, 0.8)
 }
+
+@media screen and (max-width: 600px){
+    .service-card-title {
+        font-size: 1.5rem;
+    }
+}

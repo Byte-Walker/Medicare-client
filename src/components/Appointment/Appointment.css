@@ -7,3 +7,16 @@
     border: 1px solid rgb(226, 226, 226);
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1500px){
+    .appointment-container {
+        margin: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .appointment-container {
+        grid-template-columns: 1fr;
+        margin: 50px 10px;
+    }
+}

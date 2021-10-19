@@ -19,7 +19,7 @@ const Banner = () => {
                     </p>
                     <Link className="btn btn-primary" to="/appointment">Appointment</Link>
                 </div>
-                <img src={bannerImg} alt="Medicare Doctor Women" />
+                <img className="banner-img" src={bannerImg} alt="Medicare Doctor Women" />
             </div>
         </div>
     );
