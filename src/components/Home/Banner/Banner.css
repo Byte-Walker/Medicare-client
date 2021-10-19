@@ -35,6 +35,7 @@
 
 @media screen and (max-width: 600px){
     .banner-container {
+        margin-top: 30px;
         grid-template-columns: 1fr;
     }
 

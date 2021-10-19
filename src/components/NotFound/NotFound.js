@@ -7,7 +7,7 @@ const NotFound = () => {
     return (
         <div className="not-found">
             <img src={NotFoundImg} alt="Not Found" />
-            <Link to="/"><i class="fas fa-arrow-left"></i> Go back to home page</Link>
+            <Link to="/"><i className="fas fa-arrow-left"></i> Go back to home page</Link>
         </div>
         
     );

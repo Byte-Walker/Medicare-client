@@ -1,8 +1,6 @@
 import './TopBar.css';
 
 const TopBar = () => {
-
-
     return (
         <div className="topbar">
             <div className="topbar-container max-width">
@@ -10,6 +8,7 @@ const TopBar = () => {
                     <i className="fas fa-clock"></i>24/7 service
                 </p>
 
+                {/* Contact options */}
                 <div className="topbar-contact">
                     <p>
                         <i className="fas fa-phone"></i>

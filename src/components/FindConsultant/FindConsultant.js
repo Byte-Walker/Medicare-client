@@ -19,10 +19,14 @@ const FindConsultant = () => {
 
     return (
         <div className="find-consultant">
+            {/* Topbar of the page */}
             <div className="find-consultant-banner page-bar">
                 <h1>Find your consultant here</h1>
             </div>
+
+            {/* Doctor list */}
             <div className="max-width">
+                {/* Category filter */}
                 <div className="category-list">
                     <button
                         onClick={() => setCategory('all')}
@@ -68,6 +72,7 @@ const FindConsultant = () => {
                     </button>
                 </div>
 
+                {/* Collecting doctor information */}
                 <div className="doctors-list">
                     {(category === 'all' ? doctors : filtered).map((doctor) => (
                         <Doctor doctor={doctor} key={doctor.id} />

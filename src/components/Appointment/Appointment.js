@@ -8,7 +8,9 @@ const Appointment = () => {
                 <h1>Make an appointment</h1>
             </div>
 
+            {/* Appointment form for taking information */}
             <form className="max-width appointment-container">
+                {/* Doctor information */}
                 <div className="appointment-doctor">
                     <p className="input-group">
                         <label htmlFor="doctorName">Doctor's name</label>
@@ -28,6 +30,7 @@ const Appointment = () => {
                     </p>
                 </div>
 
+                {/* Patient Information */}
                 <div className="appointment-patient">
                     <p className="input-group">
                         <label htmlFor="name">Patient's name</label>
@@ -41,6 +44,7 @@ const Appointment = () => {
                         <label htmlFor="age">Patient's Phone no.</label>
                         <input type="number" name="age" />
                     </p>
+                    {/* Submit button */}
                     <div>
                         <button className="btn btn-signup" type="submit">
                             Submit

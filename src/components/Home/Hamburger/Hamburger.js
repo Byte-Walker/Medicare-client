@@ -4,7 +4,7 @@ import useAuth from '../../../hooks/useAuth';
 import useFirebase from '../../../hooks/useFirebase';
 import './Hamburger.css';
 
-const Hamburger = ({display, setHamburgerDisplay}) => {
+const Hamburger = ({ display, setHamburgerDisplay }) => {
     const user = useAuth();
     const { signOutUser } = useFirebase();
 
@@ -14,12 +14,17 @@ const Hamburger = ({display, setHamburgerDisplay}) => {
 
     const hideHamburger = () => {
         setHamburgerDisplay('none');
-    }
+    };
 
     return (
-        <div className={"hamburger " + display}>
-            <i onClick={hideHamburger} className="far fa-times-circle hamburger-close-icon"></i>
+        <div className={'hamburger ' + display}>
+            {/* Hamburger close button */}
+            <i
+                onClick={hideHamburger}
+                className="far fa-times-circle hamburger-close-icon"
+            ></i>
 
+            {/* Hamburger signin/signup btn */}
             <div>
                 {user.email ? (
                     <div className="logged-in-user logged-in-user-hamburger">
@@ -43,6 +48,7 @@ const Hamburger = ({display, setHamburgerDisplay}) => {
                 )}
             </div>
 
+            {/* Hamburger menu */}
             <div className="hamburger-menu">
                 <a href="/#services">Services</a>
                 <div className="hamburger-menu-separator"></div>

@@ -3,30 +3,42 @@ import useFirebase from '../../hooks/useFirebase';
 import './Signup.css';
 
 const Signup = () => {
-    const { emailSignUp, googleSignIn, update, error} = useFirebase();
+    const { emailSignUp, googleSignIn, update, error } = useFirebase();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
-
 
     const handleSubmitForm = (e) => {
         e.preventDefault();
         emailSignUp(email, password);
         update(name);
-    }
+    };
+
+    const handleGoogleSignIn = () => {
+        googleSignIn()
+            .then((result) => {
+                //
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    };
 
     return (
         <div>
             <div>
+                {/* Page bar */}
                 <div className="page-bar">
-                    <h1 signup-title>Sign Up</h1>
+                    <h1>Sign Up</h1>
                 </div>
 
+                {/* Signup form */}
                 <div className="signup-form">
                     {' '}
-                    <div className="signup-with" onClick={googleSignIn}>
+                    {/* Google signup option */}
+                    <div className="signup-with" onClick={handleGoogleSignIn}>
                         <p>
-                            <i class="fab fa-google"></i>
+                            <i className="fab fa-google"></i>
                             Signup with Google
                         </p>
                     </div>
@@ -35,6 +47,7 @@ const Signup = () => {
                         <p>OR</p>
                         <div></div>
                     </div>
+                    {/* Email sign up form */}
                     <form onSubmit={handleSubmitForm}>
                         <p className="input-group">
                             <label htmlFor="name">Name</label>

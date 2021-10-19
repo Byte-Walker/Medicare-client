@@ -51,22 +51,26 @@ const Login = () => {
         <div>
             <div>
                 <div className="page-bar">
-                    <h1 signup-title>Login</h1>
+                    <h1>Login</h1>
                 </div>
 
                 <div className="signup-form">
                     {' '}
+                    {/* Google signup  */}
                     <div className="signup-with" onClick={handleGoogleSignIn}>
                         <p>
                             <i className="fab fa-google"></i>
                             Login with Google
                         </p>
                     </div>
+
                     <div className="or-separator">
                         <div></div>
                         <p>OR</p>
                         <div></div>
                     </div>
+
+                    {/* Signup form */}
                     <form onSubmit={handleSubmitForm}>
                         <p className="input-group">
                             <label htmlFor="email">Email</label>
