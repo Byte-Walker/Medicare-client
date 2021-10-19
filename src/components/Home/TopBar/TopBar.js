@@ -1,7 +1,8 @@
-import React from 'react';
 import './TopBar.css';
 
 const TopBar = () => {
+
+
     return (
         <div className="topbar">
             <div className="topbar-container max-width">

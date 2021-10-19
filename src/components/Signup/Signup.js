@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import useFirebase from '../../hooks/useFirebase';
 import './Signup.css';
 
 const Signup = () => {
+    const { emailSignUp, googleSignIn, update, error} = useFirebase();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [name, setName] = useState('');
+
+
+    const handleSubmitForm = (e) => {
+        e.preventDefault();
+        emailSignUp(email, password);
+        update(name);
+    }
+
     return (
         <div>
             <div>
@@ -11,7 +24,7 @@ const Signup = () => {
 
                 <div className="signup-form">
                     {' '}
-                    <div className="signup-with">
+                    <div className="signup-with" onClick={googleSignIn}>
                         <p>
                             <i class="fab fa-google"></i>
                             Signup with Google
@@ -22,23 +35,36 @@ const Signup = () => {
                         <p>OR</p>
                         <div></div>
                     </div>
-                    <form>
+                    <form onSubmit={handleSubmitForm}>
                         <p className="input-group">
                             <label htmlFor="name">Name</label>
-                            <input type="text" name="name" />
+                            <input
+                                onChange={(e) => setName(e.target.value)}
+                                type="text"
+                                name="name"
+                            />
                         </p>
                         <p className="input-group">
                             <label htmlFor="email">Email</label>
-                            <input type="email" name="email" />
+                            <input
+                                onChange={(e) => setEmail(e.target.value)}
+                                type="email"
+                                name="email"
+                            />
                         </p>
                         <p className="input-group">
                             <label htmlFor="password">Password</label>
-                            <input type="password" name="password" />
+                            <input
+                                onChange={(e) => setPassword(e.target.value)}
+                                type="password"
+                                name="password"
+                            />
                         </p>
                         <div className="form-agree">
                             <input type="checkbox" name="agree" id="agree" />
                             <small>I agree to the terms and policies.</small>
                         </div>
+                        <small className="error-message">{error}</small>
                         <button type="submit">Sign Up</button>
                     </form>
                 </div>
