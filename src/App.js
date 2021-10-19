@@ -16,6 +16,7 @@ import NotFound from './components/NotFound/NotFound';
 import { createContext } from 'react';
 import useFirebase from './hooks/useFirebase';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import FindConsultant from './components/FindConsultant/FindConsultant';
 
 export const AuthContext = createContext();
 
@@ -38,6 +39,9 @@ function App() {
                     </Route>
                     <PrivateRoute exact path="/service/:serviceName">
                         <ServicePage />
+                    </PrivateRoute>
+                    <PrivateRoute exact path="/doctors">
+                        <FindConsultant />
                     </PrivateRoute>
                     {/* <Route exact path="/service/:serviceName">
                         <ServicePage />

@@ -18,7 +18,7 @@ const Signup = () => {
     return (
         <div>
             <div>
-                <div className="signup-bar">
+                <div className="page-bar">
                     <h1 signup-title>Sign Up</h1>
                 </div>
 

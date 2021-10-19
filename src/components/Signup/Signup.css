@@ -1,9 +1,10 @@
-.signup-bar {
+.page-bar {
     background-color: var(--color-primary);
     color: white;
     padding: 40px 20px;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
 }
 
 .signup-form {
