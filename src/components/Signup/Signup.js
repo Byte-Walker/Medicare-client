@@ -3,15 +3,14 @@ import useFirebase from '../../hooks/useFirebase';
 import './Signup.css';
 
 const Signup = () => {
-    const { emailSignUp, googleSignIn, update, error } = useFirebase();
+    const { emailSignUp, googleSignIn,  error } = useFirebase();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
 
     const handleSubmitForm = (e) => {
         e.preventDefault();
-        emailSignUp(email, password);
-        update(name);
+        emailSignUp(name, email, password);
     };
 
     const handleGoogleSignIn = () => {

@@ -25,14 +25,26 @@ const useFirebase = () => {
     const googleSignIn = () => {
         setError('');
         return signInWithPopup(auth, googleProvider);
-            
     };
 
     // Email sign up
-    const emailSignUp = (email, password) => {
+    const emailSignUp = (name, email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 setUser(userCredential.user);
+
+                // Update display name
+                updateProfile(auth.currentUser, {
+                    displayName: name,
+                })
+                    .then(() => {
+                        console.log('Profile updated');
+                        window.location.reload();
+                    })
+                    .catch((error) => {
+                        console.log(error.code);
+                    });
+
             })
             .catch((error) => {
                 if (error.code === 'auth/email-already-in-use') {
@@ -43,23 +55,10 @@ const useFirebase = () => {
             });
     };
 
-    // Update display name
-    const update = (name) => {
-        updateProfile(auth.currentUser, {
-            displayName: name,
-        })
-            .then(() => {
-                console.log('Profile updated');
-                console.log(name);
-            })
-            .catch((error) => {
-                console.log(error.code);
-            });
-    };
 
     // Email sign in
     const emailSignIn = (email, password) => {
-        return signInWithEmailAndPassword(auth, email, password)
+        return signInWithEmailAndPassword(auth, email, password);
     };
 
     // Keep the signed in user
@@ -84,7 +83,16 @@ const useFirebase = () => {
             });
     };
 
-    return { user, setUser, error, setError, googleSignIn, emailSignUp, emailSignIn, update, signOutUser };
+    return {
+        user,
+        setUser,
+        error,
+        setError,
+        googleSignIn,
+        emailSignUp,
+        emailSignIn,
+        signOutUser,
+    };
 };
 
 export default useFirebase;

@@ -10,7 +10,6 @@ const Header = () => {
     const [hamburgerDisplay, setHamburgerDisplay] = useState('none');
     const user = useAuth();
     const { signOutUser } = useFirebase();
-    console.log(user);
 
     const logOutHandler = () => {
         signOutUser();
